@@ -1,0 +1,106 @@
+body{
+    background-image: url(R.jpeg);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.container{
+    margin: 8% auto;
+    margin-left: 
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: skyblue;
+    font-size: 35px;
+    font-weight: 80px;
+    margin: 5px;
+    padding: 5px 10px 10px 10px;
+    text-shadow: 3px 3px 5px rgba(63, 55, 55, 0.5) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background: transparent;
+    color: skyblue;
+
+}    
+
+#fname{
+    background: transparent;
+    line-height: 1.6;
+    width: 50%;
+    margin: 10px;
+}
+
+#phone-number{
+    background: transparent;
+    line-height: 1.6;
+    width: 50%;
+    margin: 10px;
+}
+
+#email{
+    background: transparent;
+    line-height: 1.6;
+    width: 50%;
+    margin: 10px;
+}
+
+#password{
+    background: transparent;
+    line-height: 1.6;
+    width: 50%;
+}
+
+.agreement{
+    line-height: 1.6;
+    color: skyblue;
+}
+
+a[href] {
+    text-decoration: none;
+    transition: color 0.2s;
+    transition-timing-function: ease-in;
+    color: aliceblue;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+button{
+    border: 50px;
+    line-height: 33px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px rgba(63, 55, 55, 0.5) ;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 15px 20px 20px 35px;
+    width: 85%;
+    background-color: aliceblue;
+}
+
+button:hover{
+    background-color: skyblue;
+    transition: color 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+@media (max-width:768px) {
+    .button{
+        background-color: blueviolet;
+    }
+}

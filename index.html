@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape to Serenity: Sign Up for Our Exclusive Hotel Retreat!"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="post">
+                <h3>
+                    Retreat Registration
+                </h3>
+            <div class="input-form">
+                <div>
+                <label for="Fullname"> <strong> Name:</strong> </label>
+                <input type="text" name="fname" id="fname" required>
+                </div>
+                 
+                <div>
+                <label for="Number"> <strong> Phone Number: </strong> </label>
+                <input type="number" name="phone" id="phone-number" required>
+                </div>
+ 
+                <div>
+                <label for="Email"> <strong> Email Address:</strong> </label>
+                <input type="text" name="email" id="email" required>
+                </div>
+
+                <div>
+                <label for="Password"> <strong> Password:</strong> </label>
+                <input type="password" name="pss" id="password" pattern="(?=.*\d) (?=.*[a-z]) (?=.*{A-Z})
+                (?=.*[@#$%&*=]).{8}" minlength="8" maxlength="10" required>
+                </div>
+                
+            </div>
+                  <p class="agreement"> <input type="checkbox" id="agreement" required> 
+                    <label for="Agreement">I have agreed to the
+                        <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register
+                        _notification_condition_of_use?ie=UTF8&nodeId=508088"> Terms and Conditions </a> </label>
+                </p>   
+
+                   <button type="submit" class="button">Register</button>
+        </form>
+    </div>
+</body>
+</html>
